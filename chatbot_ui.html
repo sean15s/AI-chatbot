@@ -136,7 +136,7 @@
             document.getElementById("user-input").value = "";
             document.getElementById("typing-indicator").style.display = "block";
             
-            fetch("/chat", {
+            fetch(""https://ai-chatbot-7ev6.onrender.com/chat", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ message: userInput })
